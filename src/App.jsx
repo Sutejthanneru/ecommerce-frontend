@@ -22,7 +22,8 @@ function App() {
   
   return (
     <>
-    <Router basenam="/ecommerce">
+    
+    <Router basename="/ecommerce">
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
